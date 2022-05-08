@@ -16,7 +16,7 @@ composer require hannanyusop/toyyibpay
 ## Publish ToyyibPay Config File
 
 ```
-php artisan vendor:publish --provider="Tarsoft\Toyyibpay\ToyyibpayServiceProvider"
+php artisan vendor:publish --provider="Hannan\Toyyibpay\ToyyibpayServiceProvider"
 ```
 
 ## Environment Credential Setup
@@ -36,13 +36,13 @@ If you're using Laravel 5.5+ you don't need to manually add the service provider
 #### Provider
 
 ```php
-Tarsoft\Toyyibpay\ToyyibpayServiceProvider::class,
+Hannan\Toyyibpay\ToyyibpayServiceProvider::class,
 ```
 
 #### Alias / Facade
 
 ```php
-'Toyyibpay' => Tarsoft\Toyyibpay\ToyyibpayFacade::class,
+'Toyyibpay' => Hannan\Toyyibpay\ToyyibpayFacade::class,
 ```
 
 ## Usage
