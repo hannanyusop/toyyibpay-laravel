@@ -9,7 +9,7 @@ For complete API usage, some endpoints need `User Secret Key`. For staging/testi
 To install the package within your laravel project use the following composer command:
 
 ```
-composer require hannanyusop/toyyibpay-laravel
+composer require hannanyusop/toyyibpay
 ```
 
 
